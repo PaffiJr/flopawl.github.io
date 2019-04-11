@@ -64,6 +64,8 @@
   }
   #mainNav.navbar-shrink {
     background-color: #fff;
+    -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
@@ -168,8 +170,8 @@
 
 .about-section {
   padding-top: 10rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8f9fa), color-stop(75%, rgba(248, 249, 250, 0.9)), to(rgba(248, 249, 250, 0.8)));
+  background: linear-gradient(to bottom, #f8f9fa 0%, rgba(248, 249, 250, 0.9) 75%, rgba(248, 249, 250, 0.8) 100%);
 }
 
 .about-section p {
