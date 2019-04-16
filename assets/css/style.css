@@ -2,4 +2,48 @@ body {
   font-family: "europa", sans-serif;
   font-weight: 400;
   color: #222;
-  line-height: 1.5; }
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased; }
+
+nav {
+  height: 12vh; }
+
+.navbar-nav a {
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em; }
+
+.hero {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  height: 697.344px;
+  background-color: darkgray; }
+
+#about .zitat {
+  font-family: "Sabon-Pro",serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.3em;
+  -webkit-font-smoothing: antialiased; }
+
+#about .info {
+  letter-spacing: 0.02em;
+  font-size: 19px;
+  line-height: 1.58em; }
+
+#projects h3 {
+  font-family: "Sabon-Pro",serif;
+  font-size: 100px;
+  line-height: 1.5em;
+  color: #212121; }
+
+#projects .projects-cards {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(234px, 1fr)); }
+
+.section-margin {
+  margin-top: 140px; }
