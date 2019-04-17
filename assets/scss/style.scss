@@ -21,7 +21,8 @@ body {
 }
 
 nav {
-		height: 12vh;
+	height: 12vh;
+	z-index: 20;
 }
 
 footer {
@@ -34,6 +35,10 @@ footer {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.15em;
+}
+
+.navbar-collapse {
+	background-color: #fff;
 }
 
 .hero {
