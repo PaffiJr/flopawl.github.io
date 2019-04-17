@@ -144,6 +144,47 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(119px, 1fr));
   grid-gap: 50px; }
 
+.linklist {
+  float: left;
+  width: auto;
+  text-align: left;
+  padding-right: 40px;
+  padding-left: 15px; }
+  .linklist h4 {
+    font-size: 14px;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 20px; }
+  .linklist ul {
+    font-size: 14px;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    line-height: 1.58em;
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .linklist li {
+    padding: 3px 0;
+    color: white; }
+  .linklist a {
+    text-decoration: none;
+    outline: 0;
+    color: #fff; }
+
+.footer-logo {
+  float: right;
+  padding-right: 0;
+  margin-left: 50%;
+  width: 182px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  -webkit-mask-image: url("../img/logo1.svg");
+  mask-image: url("../img/logo1.svg"); }
+
 .section-margin {
   margin-top: 140px; }
 
