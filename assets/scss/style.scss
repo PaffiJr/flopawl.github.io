@@ -8,6 +8,9 @@ $spacer-medium: 80px;
 $spacer-small: 60px;
 $spacer-xsmall: 30px;
 
+:root {
+  --instaImg: 219px;
+}
 
 body {
 	font-family: "europa", sans-serif;
@@ -19,6 +22,11 @@ body {
 
 nav {
 		height: 12vh;
+}
+
+footer {
+	background: #222;
+    padding: 50px 0 100px 0;
 }
 
 .navbar-nav a {
@@ -62,8 +70,130 @@ nav {
 	margin-top: $spacer-large;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(234px, 1fr));
+	grid-gap: 50px;
+}
+
+.contact {
+	background: #F9F8F7;
+    text-align: center;
+    padding-bottom: $spacer-medium;
+}
+
+#contact .subhead {
+	color: #222;
+	font-family: "europa", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 0.1em;
+}
+
+#contact h3 {
+	margin-top: 0;
+    font-size: 70px;
+    font-family: "Sabon-Pro",serif;
+	line-height: 1.5em;
+	color: $secundary-color;
+	font-weight: 400;
+}
+
+#contact a {
+	border-bottom: 2px solid;
+    color: #222;
+    text-decoration: none;
+    outline: 0;
+}
+
+#contact p {
+	max-width: 600px;
+    margin: 2em auto;
+    color: #878786;
+    line-height: 1.58em;
+    letter-spacing: 0.02em;
+    font-size: 19px;
+
+    a {
+   	max-width: 600px;
+    margin: 2em auto;
+    color: #878786;
+    text-decoration: none;
+    outline: 0;
+    border: none;
+    }
+}
+
+#contact {
+   #instafeed {
+    	position: relative;
+    	margin: 30px auto 0 auto;
+    	max-width: 1024px;
+    }
+
+    .insta-img-1 {
+    	background-image: url('https://scontent-lga3-1.cdninstagram.com/vp/8bfcd2355f5b0f61e53b859ceeec191e/5D465A33/t51.2885-15/e35/40357113_375631749642598_8390310450967251104_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com');
+    	background-size: contain;
+	    background-repeat: no-repeat;
+    	height: var(--instaImg);
+    }
+
+    .insta-img-2 {
+    	background-image: url('https://scontent-lga3-1.cdninstagram.com/vp/c8597eed79af84fe58b751008dbaa57e/5D45DBCC/t51.2885-15/e35/38907186_1839150969504731_5370260930338750464_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com');
+    	background-size: contain;
+    	background-repeat: no-repeat;
+    	height: var(--instaImg);
+    }
+
+    .insta-img-3 {
+    	background-image: url('https://scontent-lga3-1.cdninstagram.com/vp/fefa5f1aae21e9c4b2d1f610f06d7df4/5D744EC9/t51.2885-15/e35/28435453_198741064054147_3009973781809594368_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com');
+    	background-size: contain;
+    	background-repeat: no-repeat;
+    	height: var(--instaImg);
+    }
+
+    .insta-img-4 {
+    	background-image: url('https://scontent-lga3-1.cdninstagram.com/vp/f22b0f90d47128248ba31f1436504341/5D33C6E7/t51.2885-15/e35/20479059_114748502513409_6039397151220432896_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com');
+    	background-size: contain;
+    	background-repeat: no-repeat;
+    	height: var(--instaImg);
+    }
+
+    .verticalheading {
+    	float: left;
+    	top: 75px;
+    	left: -40px;
+    	font-size: 14px;
+    	letter-spacing: 0.1em;
+    	font-weight: 700;
+    	width: 100%;
+    	margin-top: $spacer-xsmall - 10px;
+
+    	a {
+    		border:none;
+    	}
+    }
+}
+
+#contact .insta-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(119px, 1fr));
+	grid-gap: 50px;
 }
 
 .section-margin {
 	margin-top: $section-margin;
+}
+
+.spacer-large {
+	margin-top: $spacer-large;
+}
+
+.spacer-medium {
+	margin-top: $spacer-medium;
+}
+
+.spacer-small {
+	margin-top: $spacer-small;
+}
+
+.spacer-xsmall {
+	margin-top: $spacer-xsmall;
 }
